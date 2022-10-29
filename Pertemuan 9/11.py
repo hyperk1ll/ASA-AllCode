@@ -7,7 +7,6 @@ def RemedGaYa(nilai):
         return "Aman"
     elif (nilai >= 60 and nilai <= 69):
         return "Lebih Baik Remed"
-
     elif (nilai >= 0 and nilai <= 59):
         return "Harus Remed"
     else:
