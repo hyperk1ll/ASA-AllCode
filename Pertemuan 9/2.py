@@ -1,4 +1,4 @@
-# 2.Mencari Pasangan 
+# 2.Mencari Pasangan
 
 def MencariPasangan(nums, total):
     for i in range(len(nums)):
