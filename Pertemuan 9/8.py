@@ -5,4 +5,5 @@ def PersamaanKuadrat(list, x):
         
 list = list(map(int, input().split()))
 x = int(input())
+
 print(PersamaanKuadrat(list, x))
