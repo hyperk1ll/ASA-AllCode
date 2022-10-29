@@ -6,3 +6,5 @@ def HitungKarakter(str, n):
 
 str = input()
 n = int(input())
+
+print(HitungKarakter(str, n))

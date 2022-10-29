@@ -1,9 +1,10 @@
-# 2.Mencari Pasangan
+# 2.Mencari Pasangan 
 
 def MencariPasangan(nums, total):
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
             if nums[i] + nums[j] == total:
+                # return [i, j]
                 return f"{i} {j}"
     return []
 
