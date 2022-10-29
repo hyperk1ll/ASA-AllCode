@@ -1,4 +1,4 @@
-# 
+# 5.Adu Panco
 import math
 
 def AduPanco(A, x): 
