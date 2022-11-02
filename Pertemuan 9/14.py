@@ -11,7 +11,7 @@ def Bilprima(x):
                 return False
 
 def prima(x, y):
-    a = [["O" if Bilprima(i + j) == True else "X" for j in range(1, m + 1)] for i in range(1, n + 1)]
+    a = [["O" if Bilprima(i + j) == True else "X" for j in range(1, x + 1)] for i in range(1, y + 1)]
 
     return a
 
